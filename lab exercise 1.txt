@@ -1,0 +1,122 @@
+1.	import math
+	r = float(input("enter the value"))
+	area = math.pi* (r**2)
+	print (area)
+
+
+2.	F = float(input("enter the temp"))
+	C = (5/9)*(F-32)
+	print("the temp in centigrade is ", C)
+
+3.	a =float(input("enter the value"))
+	b =float(input("enter the value"))
+	result = input("enter the operation")
+	add = a+b
+	subtract = a-b
+	multiply = a*b
+	divide = a/b
+	if result == "+" :
+    		print ("addition is " ,add)
+	elif result == "-":
+    		print ("addition is " ,subtract)
+	elif result == "*":
+    		print ("addition is " ,multiply)
+	else:
+    		print ("addition is " ,divide)
+4.	
+	import math
+	number = int (input ("enter the value"))
+	root = math.sqrt(number)
+	print ("the square root is" , root)
+
+5. 
+	import cmath
+	a = int (input ("enter the value"))
+	b = int (input ("enter the value"))
+	c = int (input ("enter the value"))
+
+	x1 = -b + cmath.sqrt(b**2 - 4*a*c) / (2*a)
+	x2 = -b - cmath.sqrt(b**2 - 4*a*c) / (2*a)
+	print ("the result is", x1, x2)
+
+6.     import math
+	a = float (input ("enter the value"))
+	b = float (input ("enter the value"))
+	c = float (input ("enter the value"))
+
+	s = (a+b+c)/2
+	area =math.sqrt(s*(s-a)*(s-b)*(s-c))
+	print("area is " , area)
+
+
+7.      n = int(input("enter the number"))
+	a = n%10
+	b = (n//10)%10
+	c = (n//100)%10
+	d = (n//1000)%10
+	e = (n//10000)%10
+
+	add = a+b+c+d+e
+	print(add)
+
+8.
+
+	string ="""twinkle, twinkle little star,
+        		    how i wonder what you are
+                		up above the world so high,
+                		like a diamond in the sky
+			twinkle, twinkle little star,
+        		    how i wonder what you are"""
+
+print(string)
+
+
+
+
+
+9.	mydetail = "my name is prashant \n my age is 23 \n address is agra"
+	print(mydetail)
+
+
+
+10.	 strin = "my name is 'prashant dixit' , and i live in 'agra'"
+	 print(strin)
+
+
+
+11. 	strin = """my name is "prashant dixit" , and i live in 'agra' """
+	print(strin)
+
+13.	strin = "abc"*5
+	print(strin)
+
+
+14. 	strin = "-"*50
+	print(strin)
+
+15	strin = "abcd"
+
+	print(str.upper(strin))
+
+16	 string = "cdac noida"
+	string1 = string[0:2]+string[8:10]
+	print(string1)
+17.      
+	string = "restart"
+	string1 = string[0:5] + "$" + string[-1]
+	print(string1)
+
+18.	string1 = 'abc'
+	string2 = 'xyz'
+
+	string = string2[0:2] + string1[2] +' '+ string1[0:2] + string2[2]
+	name = string1[1]
+	print(string)	
+
+12. 	
+	a = input()
+	b = ord(a)
+	print(b)
+
+
+
