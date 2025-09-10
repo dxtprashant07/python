@@ -170,3 +170,31 @@
 # car1 = display_info("BMW" , "X5")
 # car1.brand1()
 
+# class student:
+#     def __init__(self , name ,marks):
+#         self.name = name
+#         self.marks = marks
+#     def display(self):
+#         return (f"Name : {self.name} , Marks : {self.marks}")
+
+# student1 = student("prashant dixit",100)
+# student2 = student("saloni upadhayay",100)
+# s = student1.display()
+# p = student2.display()
+# print(s,p)
+
+class bankaccount:
+    def __init__(self,balance,withdraw):
+        self._balance = balance
+        self._withdraw = withdraw
+    def balance(self):
+        return self._balance
+    def withdraw(self):
+        self._withdraw = self._balance - self._withdraw
+        return self._withdraw
+account1 = bankaccount(1000,200)
+print(account1.balance())
+print(account1.withdraw())
+
+
+
