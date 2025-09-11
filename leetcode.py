@@ -183,18 +183,16 @@
 # p = student2.display()
 # print(s,p)
 
-class bankaccount:
-    def __init__(self,balance,withdraw):
-        self._balance = balance
-        self._withdraw = withdraw
-    def balance(self):
-        return self._balance
-    def withdraw(self):
-        self._withdraw = self._balance - self._withdraw
-        return self._withdraw
-account1 = bankaccount(1000,200)
-print(account1.balance())
-print(account1.withdraw())
-
-
+# class bankaccount:
+#     def __init__(self,balance,withdraw):
+#         self._balance = balance
+#         self._withdraw = withdraw
+#     def balance(self):
+#         return self._balance
+#     def withdraw(self):
+#         self._withdraw = self._balance - self._withdraw
+#         return self._withdraw
+# account1 = bankaccount(1000,200)
+# print(account1.balance())
+# print(account1.withdraw())
 
