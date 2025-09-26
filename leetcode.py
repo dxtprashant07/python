@@ -196,3 +196,34 @@
 # print(account1.balance())
 # print(account1.withdraw())
 
+# class BankAccount:
+#     def __init__(self,balance, account_number):
+#         self._balance = balance
+#         self._account_number = account_number
+#     def balance(self):
+#         return self._balance
+#     def deposit(self,amount):
+#         self._balance += amount
+#     def withdraw(self,amount):
+#         self._balance -= amount
+
+
+
+# account1 = BankAccount(5000, "ACC123")
+
+# print("Initial Balance:", account1.balance())   # 5000
+
+# account1.deposit(2000)
+# print("After Deposit:", account1.balance())     # 7000
+
+# account1.withdraw(3000)
+# print("After Withdraw:", account1.balance())    # 4000
+
+# account1.withdraw(5000)                         # "Insufficient balance"
+
+
+# Create a Student class where name and roll number are private.
+
+# Provide set_name(), get_name(), set_rollno(), get_rollno() methods.
+
+
